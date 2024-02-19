@@ -1,0 +1,66 @@
+.display{
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
+    width: 320px;
+    height: 80px;
+    }
+
+    #displayValue{
+        text-align: right;
+        font-size: 60px;
+        color: white;
+        margin-right: 10px;
+        }
+        .operator{
+          background-color: #E7E7E7;
+          width: 78px;
+          height: 80px;
+          border: 1px;
+          border-color: #A9A9A9;
+          border-style: solid;
+          font-size: 30px;
+          text-align: center;
+          line-height: 80px;
+        }
+        .number{
+          background-color: #FFFFFF;
+          border: 1px;
+          border-color: #A9A9A9;
+          border-style: solid;
+          width: 78px;
+          height: 80px;
+          font-size: 30px;
+          text-align: center;
+          line-height: 80px;
+        }
+       .equal{
+         background-color: #FA8664;
+         width: 78px;
+         height: 330px;
+         line-height: 330px;
+         text-align: center;
+         font-size: 30px;
+         border-radius: 0px 0px 10px 0px;
+       }
+
+       .numbercontainer{
+         display: flex;
+         flex-wrap: wrap;
+         width:240px;
+         }
+
+         .operatorcontainer{
+         display: flex;
+         flex-wrap: wrap;
+         width:320px;
+         }
+
+         .number.zero{
+          border-radius: 0px 0px 0px 10px;
+          }
+
+        .equalcontainer{
+          display: flex;
+          flex-wrap: wrap;
+          width:320px;
+        }
